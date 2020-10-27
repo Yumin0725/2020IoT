@@ -1,0 +1,41 @@
+yumin8713@cloudshell:~$ ibmcloud login
+API endpoint: https://cloud.ibm.com
+Region: us-south
+
+Email> yumin8713@gmail.com
+
+Password> 
+Authenticating...
+OK
+
+Targeted account Yumin Jeong's Account (3e116637bb044b96b5042d874108443a)
+
+                      
+API endpoint:      https://cloud.ibm.com   
+Region:            us-south   
+User:              yumin8713@gmail.com   
+Account:           Yumin Jeong's Account (3e116637bb044b96b5042d874108443a)   
+Resource group:    No resource group targeted, use 'ibmcloud target -g RESOURCE_GROUP'   
+CF API endpoint:      
+Org:                  
+Space:                
+yumin8713@cloudshell:~$ ibmcloud resource groups
+Retrieving all resource groups under account 3e116637bb044b96b5042d874108443a as yumin8713@gmail.com...
+OK
+Name        ID                                 Default Group   State   
+MyFirstRG   8984f3bfb2654e30ad96f48416612590   true            ACTIVE   
+yumin8713@cloudshell:~$ ibmcloud target -g MyFirstRG
+Targeted resource group MyFirstRG
+
+
+                      
+API endpoint:      https://cloud.ibm.com   
+Region:            us-south   
+User:              yumin8713@gmail.com   
+Account:           Yumin Jeong's Account (3e116637bb044b96b5042d874108443a)   
+Resource group:    MyFirstRG   
+CF API endpoint:      
+Org:                  
+Space:                
+yumin8713@cloudshell:~$ ibmcloud target -o <value> -s test
+-bash: value: No such file or directory
