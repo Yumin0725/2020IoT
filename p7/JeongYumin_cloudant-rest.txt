@@ -1,0 +1,37 @@
+C:\Users\user>curl -H "Authorization: Bearer $API_BEARER_TOKEN" -X GET "https://e97d2abb-50bf-44b7-878e-704a3a472f96-bluemix.cloudant.com/dashboard.html#database/products"
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Language" content="en" />
+
+  <title>Cloudant Dashboard</title>
+
+  <link href="/dashboard.assets/img/favicon.png" rel='icon' type='image/png' />
+  <link href="/dashboard.assets/img/favicon.ico" rel='shortcut icon' type='image/vnd.microsoft.icon' />
+
+  <link href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' integrity="sha384-ZDBUvY/seENyR1fE6u4p1oMFfsKVjIlkiB6TrCdXjeZVPlYanREcmZopTV8WFZ0q" crossorigin="anonymous" />
+  <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-draw/v0.2.3/leaflet.draw.css' rel='stylesheet' integrity="sha384-t82UCguP9vtr2+qEblz8OFHaD3k5vhQaQW2pt2Cdn5W8f4fbqfx997oT6gUfevmg" crossorigin="anonymous" />
+<link href="dashboard.assets/css/styles.82e0d2b3f36a4b44de77.css" rel="stylesheet"><link href="dashboard.assets/css/styles.656a36d9d8f774a7b6ba.css" rel="stylesheet"></head>
+
+<body id="home" class="cloudant">
+  <div id="app"></div>
+  <span id="cloudant_dashboard_build" style="display: none">Bluemix. Generated:  : 2020-11-10T16:39:27.780Z</span>
+  <!-- Bluemix. Generated:  : 2020-11-10T16:39:27.780Z -->
+
+  <script src="https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js" integrity="sha384-RIOuxiXOmovmIxeDCaAvWrMaX/XWXpPiRTUIBEjiZt5HQ8orGVqQhlmfno0eoLaX" crossorigin="anonymous"></script>
+  <script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-draw/v0.2.3/leaflet.draw.js" integrity="sha384-RM5+3jR00othcO+/OqgElHn3NGsMh/q3+MsCBjlh1NUXh+GNBTq4t6YigAvFNFOf" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="dashboard.assets/js/manifest.9d15b7c24fc8359d2668.js"></script><script type="text/javascript" src="dashboard.assets/js/vendor.82e0d2b3f36a4b44de77.js"></script><script type="text/javascript" src="dashboard.assets/js/bundle.656a36d9d8f774a7b6ba.js"></script></body>
+</html>
+
+C:\Users\user>curl -H "Authorization: Bearer $API_BEARER_TOKEN" -X POST "https://e97d2abb-50bf-44b7-878e-704a3a472f96-bluemix.cloudant.com/dashboard.html#database/products" -H "Content-Type: application/json" --data '{"_id: small-appliances:1000042","type: product","productid: 1000042","brand: Salter","name: Digital Kitchen Scales","price: 14.99"}'
+<html>
+<head><title>405 Not Allowed</title></head>
+<body bgcolor="white">
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
